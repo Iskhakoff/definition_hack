@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="15dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:minHeight="?actionBarSize"
+            tools:layout_height="56dp">
+
+            <TextView
+                android:id="@+id/title_app_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                tools:text="Заказ №19878, OL-37885"
+                android:textColor="@color/light_text_color"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginStart="@dimen/fragment_horizontal_margin"/>
+
+        </RelativeLayout>
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabs_app_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            app:tabIconTint="#ffffff"
+            app:tabTextColor="@color/light_text_color"
+            app:tabGravity="start"
+            app:tabPadding="@dimen/side_padding_btn_login"
+            app:tabSelectedTextColor="@color/login_btn_color"
+            app:tabMode="fixed"
+            app:tabTextAppearance="@style/LoginTabsStyle"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/view_pager_auth"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/app_bar"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+</RelativeLayout>

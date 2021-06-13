@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">RaribleApp</string>
+    <string name="label_login">Login</string>
+    <string name="label_email">Email</string>
+    <string name="label_password">Password</string>
+    <string name="label_confirm_password">Confirm password</string>
+    <string name="invalid_login_data">Incorrect login or password!</string>
+    <string name="login_btn_label">sign in</string>
+    <string name="register_btn_label">sign up</string>
+    <string name="password_mismatch">Passwords mismatch</string>
+    <string name="login_already_exists">This login already exists</string>
+    <string name="success_register_message">You have successfully registered!</string>
+    <string name="congrats">Congratulations!</string>
+    <string name="start_using_app_label">start using app</string>
+    <string name="fill_all_fields_label">Fill in all the fields!</string>
+    <string name="title_projects">Projects</string>
+    <string name="title_invests">Investments</string>
+    <string name="title_profile">Profile</string>
+    <string name="project_label">Project</string>
+    <string name="contribution_label">Contribution</string>
+    <string name="number_of_shapes_label">Number of shapes</string>
+    <string name="sell_assets_label">Sell assets</string>
+    <string name="buy_more_assets_label">Buy more assets</string>
+    <string name="name_project_label">Name project</string>
+    <string name="description_label">Description</string>
+    <string name="sum_label">Sum</string>
+    <string name="create_project_label">Create project</string>
+    <string name="success_create_project">You have successfully created your project!</string>
+    <string name="to_main_screen">To main screen</string>
+    <string name="success_buying_asset">" You have successfully purchased an asset!"</string>
+    <string name="buy_label">Purchase</string>
+    <string name="owned_label">Owned:</string>
+    <string name="logout_label">logout</string>
+</resources>

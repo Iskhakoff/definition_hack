@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/navigation_projects">
+
+    <fragment
+        android:id="@+id/navigation_projects"
+        android:name="ru.iskhakoff.rarible_app.fragment.ProjectsFragment"
+        android:label="ProjectsFragment"
+        tools:layout="@layout/fragment_projects"/>
+    <fragment
+        android:id="@+id/navigation_invests"
+        android:name="ru.iskhakoff.rarible_app.fragment.InvestsFragment"
+        android:label="InvestsFragment"
+        tools:layout="@layout/fragment_invests"/>
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="ru.iskhakoff.rarible_app.fragment.ProfileFragment"
+        android:label="ProfileFragment"
+        tools:layout="@layout/fragment_profile"/>
+
+</navigation>

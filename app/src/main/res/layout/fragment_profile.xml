@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ProfileFragment"
+        android:layout_centerInParent="true"
+        android:textColor="@color/light_text_color"/>
+
+    <Button
+        android:id="@+id/logout_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:layout_margin="@dimen/fragment_vertical_margin"
+        android:paddingLeft="@dimen/fragment_horizontal_margin"
+        android:paddingRight="@dimen/fragment_horizontal_margin"
+        android:layout_alignParentBottom="true"
+        android:text="@string/logout_label"
+        android:background="@drawable/background_login_btn"
+        android:theme="@style/ButtonLoginStyle"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:visibility="visible" />
+
+</RelativeLayout>

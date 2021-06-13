@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/fragment_horizontal_margin">
+
+    <TextView
+        android:id="@+id/success_title_message_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/congrats"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:textSize="26sp"
+        android:textColor="@color/success_message_color"/>
+
+    <TextView
+        android:id="@+id/success_message_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/success_create_project"
+        android:textStyle="normal"
+        android:layout_marginTop="@dimen/fragment_vertical_margin"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:textSize="16sp"
+        android:textColor="@color/light_text_color"
+        android:layout_below="@id/success_title_message_label"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/navigate_to_main_screen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:paddingLeft="@dimen/side_padding_btn_login"
+        android:paddingRight="@dimen/side_padding_btn_login"
+        android:text="@string/to_main_screen"
+        android:background="@drawable/background_login_btn"
+        android:theme="@style/ButtonLoginStyle"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:visibility="visible"
+        android:layout_below="@id/success_message_label"/>
+
+
+</RelativeLayout>

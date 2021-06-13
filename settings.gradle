@@ -1,0 +1,4 @@
+rootProject.name = "RaribleApp"
+include ':app'
+include ':data'
+include ':domain'

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_projects"
+        android:icon="@drawable/ic_bottom_nav_icon_deals"
+        android:title="@string/title_projects" />
+
+    <item
+        android:id="@+id/navigation_invests"
+        android:icon="@drawable/ic_bottom_nav_icon_history"
+        android:title="@string/title_invests" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_bottom_nav_icon_profile"
+        android:title="@string/title_profile" />
+</menu>
